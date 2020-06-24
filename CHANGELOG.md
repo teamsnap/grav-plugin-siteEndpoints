@@ -1,6 +1,6 @@
 # v0.0.2
 
-## 06/20/2020
+## 06/24/2020
 
 1. [](#new)
    - Update License and changelog
