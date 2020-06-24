@@ -1,5 +1,13 @@
-# v0.1.0
-##  06/01/2020
+# v0.0.2
+
+## 06/20/2020
 
 1. [](#new)
-    * ChangeLog started...
+   - Update License and changelog
+
+# v0.0.1
+
+## 06/20/2020
+
+1. [](#new)
+   - Initial release
