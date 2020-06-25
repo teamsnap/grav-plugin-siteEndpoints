@@ -6,30 +6,26 @@ namespace Composer\Autoload;
 
 class ComposerStaticInitc898bfa777d68aafe53c6991a9725cf1
 {
-    public static $prefixLengthsPsr4 = array (
-        'R' => 
-        array (
+    public static $prefixLengthsPsr4 = array(
+        'R' => array(
             'ReCaptcha\\' => 10,
         ),
-        'G' => 
-        array (
-            'Grav\\Plugin\\Endpoints\\' => 22,
+        'G' => array(
+            'Grav\\Plugin\\SiteEndpoints\\' => 22,
         ),
     );
 
-    public static $prefixDirsPsr4 = array (
-        'ReCaptcha\\' => 
-        array (
+    public static $prefixDirsPsr4 = array(
+        'ReCaptcha\\' => array(
             0 => __DIR__ . '/..' . '/google/recaptcha/src/ReCaptcha',
         ),
-        'Grav\\Plugin\\Endpoints\\' => 
-        array (
+        'Grav\\Plugin\\SiteEndpoints\\' => array(
             0 => __DIR__ . '/../..' . '/classes',
         ),
     );
 
-    public static $classMap = array (
-        'Grav\\Plugin\\EndpointsPlugin' => __DIR__ . '/../..' . '/endpoints.php',
+    public static $classMap = array(
+        'Grav\\Plugin\\SiteEndpointsPlugin' => __DIR__ . '/../..' . '/endpoints.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

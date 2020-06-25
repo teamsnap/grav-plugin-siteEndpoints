@@ -1,5 +1,5 @@
-name: Endpoints
-slug: endpoints
+name: Site Endpoints
+slug: siteEndpoints
 type: plugin
 version: 0.1.0
 description: Composable Endpoints plugin

@@ -1,5 +1,5 @@
 <?php
-namespace Grav\Plugin\Endpoints;
+namespace Grav\Plugin\SiteEndpoints;
 
 require_once 'resource.php';
 
