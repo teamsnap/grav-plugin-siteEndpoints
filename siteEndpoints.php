@@ -5,7 +5,7 @@ use Composer\Autoload\ClassLoader;
 use Grav\Common\Grav;
 use Grav\Common\Plugin;
 
-class EndpointsPlugin extends Plugin
+class SiteEndpointsPlugin extends Plugin
 {
     protected $route = 'api';
 
@@ -35,7 +35,7 @@ class EndpointsPlugin extends Plugin
     public function onPagesInitialized()
     {
         $uri = $this->grav['uri'];
-        $config = $this->config->get('plugins.endpoints');
+        $config = $this->config->get('plugins.siteEndpoints');
 
         if (strpos($uri->path(), $this->route) === false) {
             return;
@@ -49,7 +49,7 @@ class EndpointsPlugin extends Plugin
             $file = __DIR__ . '/resources/' . $resource . '.php';
             if (file_exists($file)) {
                 require_once $file;
-                $resourceClassName = '\Grav\Plugin\Endpoints\\' . ucfirst($resource);
+                $resourceClassName = '\Grav\Plugin\SiteEndpoints\\' . ucfirst($resource);
                 $resource = new $resourceClassName($this->grav);
                 $output = $resource->execute($config);
                 $resource->setHeaders();

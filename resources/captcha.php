@@ -1,5 +1,5 @@
 <?php
-namespace Grav\Plugin\Endpoints;
+namespace Grav\Plugin\SiteEndpoints;
 
 use Grav\Common\Grav;
 use Grav\Common\Plugin;

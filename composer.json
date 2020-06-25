@@ -1,11 +1,11 @@
 {
-  "name": "teamsnap/endpoints",
+  "name": "teamsnap/siteEndpoints",
   "type": "grav-plugin",
   "description": "Composable Endpoints plugin",
   "keywords": [
     "plugin"
   ],
-  "homepage": "https://github.com/teamsnap/grav-plugin-endpoints",
+  "homepage": "https://github.com/teamsnap/grav-plugin-siteEndpoints",
   "license": "MIT",
   "authors": [
     {
@@ -20,10 +20,10 @@
   },
   "autoload": {
     "psr-4": {
-      "Grav\\Plugin\\Endpoints\\": "classes/"
+      "Grav\\Plugin\\SiteEndpoints\\": "classes/"
     },
     "classmap": [
-      "endpoints.php"
+      "siteEndpoints.php"
     ]
   },
   "config": {

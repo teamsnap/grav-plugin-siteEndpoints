@@ -7,5 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'ReCaptcha\\' => array($vendorDir . '/google/recaptcha/src/ReCaptcha'),
-    'Grav\\Plugin\\Endpoints\\' => array($baseDir . '/classes'),
+    'Grav\\Plugin\\SiteEndpoints\\' => array($baseDir . '/classes'),
 );
