@@ -35,7 +35,7 @@ class SiteEndpointsPlugin extends Plugin
     public function onPagesInitialized()
     {
         $uri = $this->grav['uri'];
-        $config = $this->config->get('plugins.siteEndpoints');
+        $config = $this->config->get('plugins.siteendpoints');
 
         if (strpos($uri->path(), $this->route) === false) {
             return;
